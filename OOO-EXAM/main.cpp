@@ -13,6 +13,7 @@ int main()
 	// ten nhom co diem danh gia cao nhat
 	cout << "Nhom co danh gia cao nhat: " << lop.nhomDiemCaoNhat()->getTen() << endl;
 	// nhom van nghe nhieu hoat dong nhat
+	cout << "Nhom van nghe co nhieu hoat dong nhat: " << lop.nhomVanNgheNhieuHDNhat()->getTen() << endl;
 	// xuat ra tong so hoat dong cua nhom
 	cout << "Tong so hoat dong cua nhom: " << lop.getTongHD() << endl;
 	// loai hoat dong co nhieu nhom tham gia nhat
@@ -20,7 +21,7 @@ int main()
 	if (lop.danhGia())
 		cout << "Ket qua danh gia lop:  TOT" << endl;
 	else
-		cout << "Ket qua danh gai lop: KHONG TOT" << endl;
+		cout << "Ket qua danh gia lop: KHONG TOT" << endl;
 	cout << "Press any keky to continue...";
 	getchar();
 	return 0;

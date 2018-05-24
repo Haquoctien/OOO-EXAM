@@ -120,3 +120,14 @@ Nhom * LopHoc::nhomDiemCaoNhat()
 			max = dsNhom[i];
 	return max;
 }
+
+Nhom * LopHoc::nhomVanNgheNhieuHDNhat()
+{
+	NhomVanNghe *it;
+	Nhom * max = dsNhom[0];
+	for (int i = 1; i < soNhom; i++)
+		if (max->tinhDiem() < dsNhom[i]->tinhDiem() && (typeid(dsNhom[i])== typeid(it)))
+			max = dsNhom[i];
+	return max;
+}
+

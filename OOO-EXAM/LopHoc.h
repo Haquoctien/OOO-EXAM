@@ -19,5 +19,6 @@ public:
 	Nhom* nhomDongNhat();
 	void xuatTenvXepLoai();
 	Nhom* nhomDiemCaoNhat();
+	Nhom* nhomVanNgheNhieuHDNhat();
 };
 
