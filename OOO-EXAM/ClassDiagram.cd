@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Nhom" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAABAIAAQAAIAEgBAAAAAAACAAAAAAAIAAAAA=</HashCode>
+      <FileName>Nhom.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhomHocTap" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <InheritanceLine Type="Nhom" ManuallyRouted="true" FixedToPoint="true">
+      <Path>
+        <Point X="5.75" Y="1.062" />
+        <Point X="5.75" Y="1.437" />
+        <Point X="2.375" Y="1.437" />
+        <Point X="2.375" Y="1.344" />
+        <Point X="2" Y="1.344" />
+        <Point X="2" Y="1.875" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAABCIAAAAAABAAEAAAAAAACAAAAAAAIAAAAA=</HashCode>
+      <FileName>NhomHocTap.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhomVanNghe" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAARAIAAAAAAAACAAABAAAACAAAAAAAIAAAAA=</HashCode>
+      <FileName>NhomVanNghe.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NhomTheThao">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBAAAAAAABAIAAAAAAAAAAAAAEAAAGAAAgAAAIAAAAA=</HashCode>
+      <FileName>NhomTheThao.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

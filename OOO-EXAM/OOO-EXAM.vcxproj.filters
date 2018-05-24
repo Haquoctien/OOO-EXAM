@@ -27,6 +27,9 @@
     <ClInclude Include="NhomTheThao.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="LopHoc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Nhom.cpp">
@@ -41,5 +44,14 @@
     <ClCompile Include="NhomTheThao.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="LopHoc.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
