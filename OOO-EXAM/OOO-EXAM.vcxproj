@@ -115,6 +115,16 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Nhom.h" />
+    <ClInclude Include="NhomHocTap.h" />
+    <ClInclude Include="NhomTheThao.h" />
+    <ClInclude Include="NhomVanNghe.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Nhom.cpp" />
+    <ClCompile Include="NhomHocTap.cpp" />
+    <ClCompile Include="NhomTheThao.cpp" />
+    <ClCompile Include="NhomVanNghe.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
