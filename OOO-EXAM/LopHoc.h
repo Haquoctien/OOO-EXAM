@@ -15,7 +15,7 @@ public:
 	void nhap();
 	void xuat();
 	bool danhGia();
-	bool getTongHD();
+	int getTongHD();
 	Nhom* nhomDongNhat();
 	void xuatTenvXepLoai();
 	Nhom* nhomDiemCaoNhat();

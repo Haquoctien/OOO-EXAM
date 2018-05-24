@@ -81,7 +81,7 @@ bool LopHoc::danhGia()
 	return tieuChi1 && tieuChi2 && tieuChi3;
 }
 
-bool LopHoc::getTongHD()
+int LopHoc::getTongHD()
 {
 	for (int i = 0; i < soNhom; i++)
 		tongHD += dsNhom[i]->getSoHD();
